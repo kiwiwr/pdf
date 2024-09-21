@@ -26,7 +26,8 @@ app.get('/generate-pdf', async (req, res) => {
         top: '0px',
         bottom: '0px',
         left: '0px',
-        right: '0px'
+        right: '0px',
+        timeout: '0'
       }
     });
 
